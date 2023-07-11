@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "This is my personal portfolio project",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html --dist-dir docs",
     "test": "jest"
   },
-  
   "author": "Ajit",
   "license": "ISC",
   "devDependencies": {
