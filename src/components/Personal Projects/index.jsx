@@ -104,7 +104,7 @@ function PersonalProjectsCard() {
         return (
           <Grid item md={4} sm={6} xs={12}>
             <a href={ele.link} target="_blank">
-              <Card sx={{ width: "100%", borderRadius: "15px" }} elevation={2}>
+              <Card sx={{ width: "100%", borderRadius: "14px" }} elevation={2}>
                 <CardMedia
                   sx={{ height: 180 }}
                   image={ele.ref}
